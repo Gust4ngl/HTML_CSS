@@ -12,7 +12,7 @@ body {
 }
 ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 0;
 }
 .navbar {
     background-image: url(/Templates/básico/img/header-gradient.jpg);
@@ -20,31 +20,24 @@ ul {
     padding: 10px;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 50px;
 }
-.navbar ul {
+.navbar, .linha {
     display: flex;
     flex-direction: row;
 }
 .navbar li {
-    padding: 20px;
-}
-a {
     padding: 10px;
+}
+.navbar a {
+    padding: 20px;
     font-size: 18px;
     color: white;
     text-decoration: none;
-    background-color: white;
 }
 
 .navbar li:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     background-size: 10px;
-    cursor: pointer;
-}
-a:hover {
-    cursor: pointer;
-    transition: 0.8s ease-in-out;
-    text-decoration: underline ;
 }
