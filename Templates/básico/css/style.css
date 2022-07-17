@@ -12,29 +12,39 @@ body {
 }
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
-nav {
-    background-color: black;
+.navbar {
+    background-image: url(/Templates/básico/img/header-gradient.jpg);
+    background-size: cover;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
-nav, ul {
+.navbar ul {
     display: flex;
     flex-direction: row;
 }
-li {
+.navbar li {
     padding: 20px;
 }
 a {
-    padding: 20px;
+    padding: 10px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
-    background-color: none;
+    background-color: white;
 }
 
-li:hover {
+.navbar li:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+    background-size: 10px;
+    cursor: pointer;
+}
+a:hover {
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+    text-decoration: underline ;
 }
