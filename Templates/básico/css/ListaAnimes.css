@@ -4,10 +4,10 @@
     display: flex;
 }
 .lista .animeInfo {
-    max-width: 1000px;
-    text-align: start;
+    max-width: 100%;
+    text-align: justify;
     padding: 10px;
-    margin-left: -100px;
+    padding-right: 20px;
 }
 .lista li {
     border: 4px solid;
@@ -15,13 +15,13 @@
     margin: 10px;
     border-color: rgb(26, 26, 26); 
 }
-.aaa {
+.animeImg {
     height: 300px;
     border-radius: 15px;
     padding: 10px;
     overflow: hidden;
-    max-width: 320px;
-    min-width: 320px;
+    max-width: 300px;
+    min-width: 210px;
     margin-left: 25px;
     margin-right: 10px;
 }

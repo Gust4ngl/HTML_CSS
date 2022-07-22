@@ -54,7 +54,7 @@ ul {
 
 }
 
-.container .catalogo {
+.container .destaques {
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
